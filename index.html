@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link rel="shortcut icon" href="./greendata_ci.png?v1">
+        <link rel="icon" href="./greendata_ci.png?v1">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Expires" content="-1">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-Control" content="no-cache">
+        <title>한국그린데이터</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet">
+        <style media="screen" type="text/css">
+                html {
+                        height:100%;
+                }
+                body {
+                        margin: 0;
+                        font-family: 'Montserrat', sans-serif;
+                        font-style: normal;
+                        font-size: 14px;
+                        line-height: 22px;
+                        height: 100%; 
+                }
+                h1 {
+                        margin-top: 20px;
+                        opacity: 1;
+                } 
+                @media all and (max-width: 980px) {
+                        h1 {
+                                font-size: 35px;
+                        }
+                        .under-construction p {
+                                font-size: 20px;
+                        }
+                }
+                @media all and (max-width: 767px) {
+                        h1 {
+                                font-size: 28px;
+                        }
+                        .under-construction p {
+                                font-size: 16px;
+                        }
+                }
+                h2 {
+                        font-style: normal;
+                        font-size: 14px;
+                        line-height: 22px;
+                        margin: 0;
+                }
+                .wrap {
+                        height: auto; 
+                        min-height: 100%; 
+                        background-color: #ffffff;
+                }
+                .domain {
+                        position: absolute; 
+                        text-align: center; 
+                        width: 100%; 
+                        margin-left: -50%; 
+                        top: 10%;
+                        left: 50%;
+                }
+
+                .footer {
+                        text-align: center;
+                        margin:auto;
+                        padding:15px 20px 18px 20px;
+                        position:relative;
+                        clear:both;
+                        height:40px;
+                        margin-top:-73px;
+                        font-size: 12px;
+                        line-height: 22px;
+                }
+                p {
+                        margin: 0;
+                }
+                p.description {
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+                .avoori-logo {
+                    margin: 20px;
+                    max-width: 40px;
+                }
+                .under-construction {
+                    position: absolute; 
+                    text-align: center; 
+                    width: 100%; 
+                    bottom: 5%;
+                    font-size: 24px;
+                    line-height: 1;   
+                    font-weight: 300;
+                }
+        </style>
+        <script defer>
+                document.addEventListener("DOMContentLoaded", function(){
+                        if(window.outerWidth > 700) {
+                                document.getElementById('pc').style.display = 'block';
+                                document.getElementById('mobile').style.display = 'none';
+                        } else {
+                                document.getElementById('pc').style.display = 'none';
+                                document.getElementById('mobile').style.display = 'block';
+                                document.getElementById('logo').style.width = '80%';
+                        }    
+                });
+        </script>
+</head>
+<body>
+        <div class="wrap">
+                <div class="domain">
+                    <img src="./GD_CI_primary.jpg" style="width:50%;margin-top: 0;" id="logo" alt="greendata logo">
+                    <div id="pc" style="position: relative; top: -30px;">
+                        <h1>“We bring automation in the field </h1>
+                        <h1>of Green Industry</h1>
+                        <h1>and to accelerate the world’s Green Revolution"</h1> 
+                    </div>
+                    <div id="mobile" style="height:100px;">
+                        <h1>“We bring automation in the field </h1>
+                        <h1>of Green Industry</h1>
+                        <h1>and to accelerate the world’s Green Revolution"</h1> 
+                    </div>
+                </div>
+                <div class="under-construction" style="margin-top:20px;">
+                        <h2 style="font-size: 24px;">We're just getting ready, check back soon.</p>
+                        <span style="display:inline-block;vertical-align: middle;"><a href="mailto:contact@greendata.kr"><img src="./email.png" style="position: relative; top: 10px;" width="50px" /><span style="font-size: 20px;">contact@greendata.kr</span></a></span>
+                </div>
+        </div>
+</body>
+</html>
