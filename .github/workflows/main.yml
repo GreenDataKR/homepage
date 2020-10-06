@@ -45,7 +45,7 @@ jobs:
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-           build s3://greendata-homepage
+            s3://greendata-homepage
 
       - name: Cloudfront path invalidate # Invalidate Cloudfront
         uses: chetan/invalidate-cloudfront-action@master
